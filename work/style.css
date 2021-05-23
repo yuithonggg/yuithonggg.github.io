@@ -1,8 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Open+Sans:wght@800&family=Oswald:wght@600&family=Quicksand:wght@300&family=Roboto+Condensed&display=swap');
+
+
 body {
-  padding : 5% ;
+  padding: 5% ;
   margin : 0% ;
-  font-family:'AvenirNextLTPro-Regular';
+  font-family: Quicksand;
+  font-size: 18px;
   }
+
+.nav-link{
+  font-family:Roboto Condensed;
+  font-size: 18px;
+  margin: 15px;
+}
+
+.carousel-caption{
+  font-family:Oswald;
+  background-color:rgba(0, 0, 0, 0.5);;
+}
 
 figure {
   position: relative;
@@ -20,6 +35,14 @@ figure {
    background-size: cover;
   }
 
+.row text-center {
+  font-weight: bolder;
+}
+
+  .card-title{
+    font-weight: bold;
+  }
+
   .fun{
     width: 100%;
     margin-bottom: 4rem;
@@ -33,10 +56,20 @@ figure {
     padding-bottom: 10px
   }
 
+.alert{
+  font-style: italic;
+}
+
 .stage{
   padding-top: 5%;
 }
 
 .rank{
   font-size:20px;
+}
+
+footer{
+  font-family: Roboto Condensed;
+  font-size: 16px;
+  margin: 5px;
 }
