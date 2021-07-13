@@ -1,0 +1,837 @@
+<!DOCTYPE html>
+<html lang="zxx">
+<head>
+
+	<!-- Basic Page Needs
+	================================================== -->
+	<title> 极度之渊 BREATHLESS </title>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="description" content="HTML Template for Escape Room Game">
+	<meta name="author" content="Dan Fisher">
+	<meta name="keywords" content="escape, room, quest, real, game, life, puzzle, real-life">
+
+	<!-- Favicons
+	================================================== -->
+	<link rel="shortcut icon" href="assets/img/favicons/favicon.ico">
+	<link rel="apple-touch-icon" sizes="120x120" href="assets/img/favicons/favicon-120.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="assets/img/favicons/favicon-152.png">
+
+	<!-- Mobile Specific Metas
+	================================================== -->
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+
+	<!-- Google Web Fonts
+	================================================== -->
+	<link href="https://fonts.googleapis.com/css?family=Anton%7CHind:400,700%7CMontserrat:400,700" rel="stylesheet">
+
+	<!-- CSS
+	================================================== -->
+	<!-- Vendor CSS -->
+	<link href="assets/vendor/bootstrap/css/bootstrap.css" rel="stylesheet">
+	<link href="assets/vendor/animate/animate.css" rel="stylesheet">
+	<link href="assets/vendor/aos/aos.css" rel="stylesheet">
+	<link href="assets/font-icon/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
+	<link href="assets/font-icon/ionicons/css/ionicons.min.css" rel="stylesheet">
+	<link href="assets/vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
+	<link href="assets/vendor/slick/slick.css" rel="stylesheet">
+
+	<!-- Template CSS-->
+	<link href="assets/css/style.css" rel="stylesheet">
+
+	<!-- Booked CSS-->
+	<link href="assets/css/booked.css" rel="stylesheet">
+
+	<!-- Custom CSS-->
+	<link href="assets/css/custom.css" rel="stylesheet">
+
+</head>
+<body>
+
+	<div class="site-wrapper">
+
+		<div id="js-preloader-overlay" class="preloader-overlay">
+			<div id="js-preloader" class="preloader"></div>
+		</div>
+
+		<!-- Overlay -->
+		<div class="site-overlay"></div>
+		<!-- Overlay / End -->
+
+		<!-- Header
+		================================================== -->
+		<header id="header" class="header">
+
+			<!-- Logo - Image Based -->
+			<div class="header__logo header__logo--img">
+				<a href="index.html"><img src="assets/img/logo.png" srcset="assets/img/logo@2x.png 2x" alt="Escapium"></a>
+			</div>
+			<!-- Logo - Image Based / End -->
+
+			<!-- Main Navigation -->
+			<nav class="main-nav">
+				<ul class="main-nav__list">
+					<li class="active"><a href="index.html">主页</a></li>
+					<li class=""><a href="page-about.html">关于</a></li>
+					<li class=""><a href="#">论坛</a></li>
+					<li class=""><a href="#">专题</a>
+						<ul class="main-nav__sub">
+							<li class=""><a href="#">版块分类</a>
+								<ul class="main-nav__sub-2">
+									<li class=""><a href="#">书籍</a></li>
+									<li class=""><a href="#">影视</a></li>
+									<li class=""><a href="#">剧本</a></li>
+									<li class=""><a href="#">其它</a></li>
+								</ul>
+							</li>
+							<li class=""><a href="#">游戏测评</a></li>
+							<li class=""><a href="#">人物专访</a></li>
+						</ul>
+					</li>
+					<li class=""><a href="booking-form.html">活动</a>
+						<ul class="main-nav__sub">
+							<li class=""><a href="#">进行中</a></li>
+							<li class=""><a href="#">未开始</a></li>
+							<li class=""><a href="#">预约</a></li>
+						</ul>
+					</li>
+					<li class=""><a href="#">我的</a></li>
+				</ul>
+
+			</nav>
+			<!-- Main Navigation / End -->
+
+			<div class="header__spacer"></div>
+
+			<!-- Secondary Navigation -->
+			<nav class="header__nav header__nav--secondary">
+
+				<!-- CTA Button -->
+				<a href="booking-form.html" class="btn btn-outline-secondary nav-btn">
+					<span class="nav-btn__label">搜 索</span>
+					<i class="nav-btn__icon icon-calendar"></i>
+				</a>
+				<!-- CTA Button / End -->
+
+				<!-- Secondary Nav -->
+				<ul class="nav-secondary">
+
+					<!-- Search Form Toggler -->
+					<li class="nav-secondary__search">
+						<div class="search-form-control js-search-form-control">
+							<div class="search-form-toggler"></div>
+							<i class="icon-magnifier search-form-toggler__icon"></i>
+						</div>
+					</li>
+					<!-- Search Form Toggler / End -->
+
+					<!-- Account -->
+					<li class="nav-secondary__login">
+						<a href="#">
+							<i class="icon-user"></i>
+							<span class="link-label">登录</span>
+						</a>
+					</li>
+					<!-- Account / End -->
+
+				</ul>
+				<!-- Secondary Nav / End -->
+
+			</nav>
+			<!-- Secondary Navigation / End -->
+
+			<!-- Mobile Burger Menu Icon -->
+			<a id="header-mobile__toggle" class="burger-menu-icon">
+				<span class="burger-menu-icon__line"></span>
+				<span class="burger-menu-icon__line"></span>
+				<span class="burger-menu-icon__line"></span>
+			</a>
+			<!-- Mobile Burger Menu Icon / End -->
+
+		</header>
+		<!-- Header / End -->
+
+		<!-- Main Slider -->
+		<div class="main-slider-wrapper">
+			<div class="main-slider js-main-slider">
+				<!-- Slide #1 -->
+				<div class="main-slider__item main-slider__item--img-1">
+					<div class="main-slider__layer main-slider__item-content">
+						<h1 class="main-slider__item-title">
+							<span data-animation="fadeInUp" data-delay="0.1s">2021新作</span>
+							<span data-animation="fadeInUp" data-delay="0.3s">欲望迷宫中的危险魔术</span>
+						</h1>
+						<a href="room-grid-3cols.html" class="main-slider__item-btn btn btn-link btn-link--clean btn-link--dash btn-link--dash-secondary" data-animation="fadeInUp" data-delay="0.6s">东野圭吾 《迷宫里的魔术师》</a>
+					</div>
+				</div>
+				<!-- Slide #1 / End -->
+
+				<!-- Slide #2 -->
+				<div class="main-slider__item main-slider__item--img-2">
+					<div class="main-slider__layer main-slider__item-content">
+						<h1 class="main-slider__item-title">
+							<span data-animation="fadeInUp" data-delay="0.1s">我看见的明日、</span>
+							<span data-animation="fadeInUp" data-delay="0.3s">你就是杀手！</span>
+						</h1>
+						<a href="room-grid-3cols.html" class="main-slider__item-btn btn btn-link btn-link--clean btn-link--dash btn-link--dash-secondary" data-animation="fadeInUp" data-delay="0.6s">2021韩国电影 《明天的记忆》</a>
+					</div>
+				</div>
+				<!-- Slide #2 / End -->
+
+				<!-- Slide #3 -->
+				<div class="main-slider__item main-slider__item--img-4">
+					<div class="main-slider__layer main-slider__item-content">
+						<h1 class="main-slider__item-title">
+							<span data-animation="fadeInUp" data-delay="0.1s">保持</span>
+							<span data-animation="fadeInUp" data-delay="0.3s">安静。</span>
+						</h1>
+						<a href="room-grid-3cols.html" class="main-slider__item-btn btn btn-link btn-link--clean btn-link--dash btn-link--dash-secondary" data-animation="fadeInUp" data-delay="0.6s">泰絲格里森 《我知道的秘密》</a>
+					</div>
+				</div>
+				<!-- Slide #3 / End -->
+
+				<!-- Slide #4 -->
+				<div class="main-slider__item main-slider__item--img-3">
+					<div class="main-slider__layer main-slider__item-content">
+						<h1 class="main-slider__item-title">
+							<span data-animation="fadeInUp" data-delay="0.1s">那些</span>
+							<span data-animation="fadeInUp" data-delay="0.3s">未解的杀人事件</span>
+						</h1>
+						<a href="room-grid-3cols.html" class="main-slider__item-btn btn btn-link btn-link--clean btn-link--dash btn-link--dash-secondary" data-animation="fadeInUp" data-delay="0.6s">《真凶到底是谁？》 甄项 著</a>
+					</div>
+				</div>
+				<!-- Slide #4 / End -->
+
+			</div>
+		</div>
+		<!-- Main Slider / End -->
+		<!-- Content
+		================================================== -->
+		<main class="site-content">
+
+			<!-- Section: Instagram -->
+			<div class="section-content">
+				<div class="container">
+					<div class="section-heading section-heading--divider-top">
+						<h2 class="section-heading__title" data-aos="fade" data-aos-duration="600"> 极 度 之 渊 <br> BREATHLESS </h2>
+						<div class="section-heading__subtitle" data-aos="fade" data-aos-duration="600">
+							<a href="#">#答案永不止于此 </a>
+							<br><br><br>
+							<img src="assets/img/gmap-logo.png">
+						</div>
+					</div>
+
+					<!-- Instagram Feed -->
+					<ul id="instagram-feed-tagged" class="widget-instagram__list widget-instagram__list--gutter-xs widget-instagram__list--4cols"></ul>
+					<!-- Instagram Feed / End -->
+					<div class="text-center widget-instagram__btn" data-aos="fade" data-aos-duration="600">
+						<a href="page-about.html" class="btn btn-outline-secondary btn-lg">关 于 我 们</a>
+					</div>
+				</div>
+			</div>
+			<!-- Section: Instagram / End -->
+
+	   <!--Section:Post-->
+		 <div class="section-content">
+	 			<div class="container">
+			<div class="row">
+					<div class="content col-md-8" data-aos="fade" data-aos-duration="600">
+						<!-- Post -->
+						<div class="post">
+							<figure class="post__thumb">
+								<a href="blog-post.html"><img src="assets/img/samples/blog-post-img-11.jpg" alt=""></a>
+							</figure>
+							<div class="post__body box">
+								<header class="post__header">
+									<ul class="post__tax list-unstyled">
+										<li class="post__tax-item"><a href="#">活动进行中</a></li>
+									</ul>
+									<h2 class="post__title"><a href="booking-activities.html">中传学生会开展“甄型医院”<br>真人密室逃脱活动</a></h2>
+									<ul class="post__meta list-unstyled">
+										<li class="post__meta-item post__meta-item--date"><a href="blog-post.html">2021年7月17日</a></li>
+										<li class="post__meta-item post__meta-item--author"><a href="#">中国传媒大学</a></li>
+										<li class="post__meta-item post__meta-item--comments"><a href="blog-post.html#comments">1,150 位已参加</a></li>
+									</ul>
+								</header>
+								<div class="post__excerpt">
+								中国传媒大学将于2021年7月7日举办大型真人密室逃脱活动。此次活动以“明星大侦探”中甄漂亮医院为故事背景，使用崭新的剧本让玩家有享有更棒的体验。参与者不限于本校学生，只要你在17至29岁，通过转发微信朋友圈为截图证明即可参与其中。本次活动的截至日期为.......
+								</div>
+								<footer class="post__footer">
+									<a href="blog-post.html" class="btn btn-outline-secondary">活动详情</a>
+								</footer>
+							</div>
+						</div>
+						<!-- Post / End -->
+					</div>
+					<!-- Sidebar -->
+					<div id="sidebar" class="sidebar col-md-4" data-aos="fade" data-aos-duration="600">
+
+						<!-- Widget: Categories -->
+						<div class="widget widget--sidebar widget_categories">
+							<header class="widget__header">
+								<h3 class="widget__title">最 新 资 讯</h3>
+							</header>
+							<div class="widget__content">
+								<ul>
+									<li><a href="#">《Deathloop》公布一系列游戏最新情报！</a></li>
+									<li><a href="#">复制“明侦”，爱优腾角逐线上“剧本杀”？</a></li>
+									<li><a href="#">上海第一家侦探推理书店开业啦，快来打卡！</a></li>
+									<li><a href="#">小说家东西推理小说新作《回响》：像破案一样侦破爱情</a></li>
+									<li><a href="#">由半身尸体命案所开始的推理物语！《AI: THE SOMNIUM FILES – nirvanA Initiative》</a></li>
+									<li><a href="#">悬疑推理IP电影《烧烤怪谈》在厦开机</a></li>
+									<li><a href="#">音乐剧《伪装者》启动，这一次靳东是制作人</a></li>
+									<li><a href="#">快节奏神反转力压东野圭吾，大山诚一郎推理《字母表谜案》上架</a></li>
+									<li><a href="#">韩国作家尹高恩《夜行者》荣获英国匕首奖</a></li>
+								</ul>
+							</div>
+						</div>
+						<!-- Widget: Categories / End -->
+						<!-- Widget: Posts -->
+					<div class="widget widget--sidebar widget_posts">
+						<header class="widget__header">
+							<h3 class="widget__title">相 关 活 动</h3>
+						</header>
+						<div class="widget__content">
+							<ul class="posts-list">
+								<li class="posts-list__item posts-list__item--post-1">
+									<a href="blog-post.html" class="posts-list__holder">
+										<span class="posts-list__date">17/07/2021</span>
+										<h5 class="posts-list__title">中传学生会开展“甄型医院”真人密室逃脱活动</h5>
+									</a>
+								</li>
+								<li class="posts-list__item posts-list__item--post-2">
+									<a href="blog-post.html" class="posts-list__holder">
+										<span class="posts-list__date">02/08/2021</span>
+										<h5 class="posts-list__title">女神异闻录 X BREATHLESS 独家周边售卖活动</h5>
+									</a>
+								</li>
+								<li class="posts-list__item posts-list__item--post-3">
+									<a href="blog-post.html" class="posts-list__holder">
+										<span class="posts-list__date">14/09/2021</span>
+										<h5 class="posts-list__title">雷米新书《人鱼》线下签售会名额开抢</h5>
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<!-- Widget: Posts / End -->
+			</div>
+		</div>
+	</div>
+
+			<!-- Section: Latest Blog Posts -->
+			<div class="section-content">
+				<div class="container">
+					<div class="section-heading section-heading--divider-top">
+						<h2 class="section-heading__title" data-aos="fade" data-aos-duration="600"> 热 门 帖 子  </h2>
+						<div class="section-heading__subtitle" data-aos="fade-up" data-aos-duration="600">
+							<a href="blog-right-sidebar.html">谜由你解开</a>
+						</div>
+					</div>
+
+					<!-- Post Grid -->
+					<div class="post-grid row">
+
+						<!-- Post #1 -->
+						<div class="post-grid__item col-sm-6 col-md-6 col-lg-4" data-aos="fade-up" data-aos-duration="800">
+
+							<!-- Post Thumb -->
+							<figure class="post-grid__thumb">
+								<a href="blog-post.html"><img src="assets/img/samples/post-img-11-sm.jpg" alt=""></a>
+							</figure>
+							<!-- Post Thumb / End-->
+
+							<div class="post-grid__body">
+								<!-- Post Author -->
+								<div class="post-grid__author post-grid__author--on-thumb">
+									<img src="assets/img/samples/post-avatar11.png" alt="" class="post-grid__author-avatar">
+									<span class="post-grid__author-name">叶小路</span>
+								</div>
+								<!-- Post Author / End -->
+
+								<!-- Post Category -->
+								<ul class="post-grid__cat list-unstyled">
+									<li class="post-grid__cat-item"><a href="#">原创短篇</a></li>
+								</ul>
+								<!-- Post Category / End -->
+
+								<!-- Post Title -->
+								<h3 class="post-grid__title"><a href="#">解难者</a></h3>
+								<!-- Post Title / End -->
+
+								<!-- Post Excerpt -->
+								<div class="post-grid__excerpt">解難者，替別人想出辦法，然後由本人自己解決問題的一種職業。</div>
+								<!-- Post Excerpt / End -->
+							</div>
+
+						</div>
+						<!-- Post #1 / End -->
+
+						<!-- Post #2 -->
+						<div class="post-grid__item col-sm-6 col-md-6 col-lg-4" data-aos="fade-up" data-aos-duration="800" data-aos-delay="200">
+
+							<!-- Post Thumb -->
+							<figure class="post-grid__thumb">
+								<a href="blog-post.html"><img src="assets/img/samples/post-img-22-sm.jpg" alt=""></a>
+							</figure>
+							<!-- Post Thumb / End-->
+
+							<div class="post-grid__body">
+								<!-- Post Author -->
+								<div class="post-grid__author post-grid__author--on-thumb">
+									<img src="assets/img/samples/post-avatar22.png" alt="" class="post-grid__author-avatar">
+									<span class="post-grid__author-name">一只仙灵</span>
+								</div>
+								<!-- Post Author / End -->
+
+								<!-- Post Category -->
+								<ul class="post-grid__cat list-unstyled">
+									<li class="post-grid__cat-item"><a href="#">剧本杀复盘</a></li>
+								</ul>
+								<!-- Post Category / End -->
+
+								<!-- Post Title -->
+								<h3 class="post-grid__title"><a href="#">2021剧本杀评分来了</a></h3>
+								<!-- Post Title / End -->
+
+								<!-- Post Excerpt -->
+								<div class="post-grid__excerpt">不存在满分剧本，剧本杀行业永远应该朝着下一部作品会更好的方向发展。</div>
+								<!-- Post Excerpt / End -->
+							</div>
+
+						</div>
+						<!-- Post #2 / End -->
+
+						<!-- Post #3 -->
+						<div class="post-grid__item col-sm-6 col-md-6 col-lg-4" data-aos="fade-up" data-aos-duration="800" data-aos-delay="400">
+
+							<!-- Post Thumb -->
+							<figure class="post-grid__thumb">
+								<a href="blog-post.html"><img src="assets/img/samples/post-img-33-sm.jpg" alt=""></a>
+							</figure>
+							<!-- Post Thumb / End-->
+
+							<div class="post-grid__body">
+								<!-- Post Author -->
+								<div class="post-grid__author post-grid__author--on-thumb">
+									<img src="assets/img/samples/post-avatar33.png" alt="" class="post-grid__author-avatar">
+									<span class="post-grid__author-name">哔粒粒</span>
+								</div>
+								<!-- Post Author / End -->
+
+								<!-- Post Category -->
+								<ul class="post-grid__cat list-unstyled">
+									<li class="post-grid__cat-item"><a href="#">原创文章</a></li>
+								</ul>
+								<!-- Post Category / End -->
+
+								<!-- Post Title -->
+								<h3 class="post-grid__title"><a href="#">那些你不能错过的推理作品</a></h3>
+								<!-- Post Title / End -->
+
+								<!-- Post Excerpt -->
+								<div class="post-grid__excerpt">2021最新悬疑推理作品TOP10！非精品不入榜！</div>
+								<!-- Post Excerpt / End -->
+								<br><br><br><br>
+								<div class="text-center widget-instagram__btn" data-aos="fade" data-aos-duration="600">
+									<a href="page-about.html" class="btn btn-outline-secondary btn-lg">查 看 更 多</a>
+								</div>
+
+							</div>
+
+						</div>
+						<!-- Post #3 / End -->
+
+					</div>
+					<!-- Post Grid / End -->
+				</div>
+			</div>
+			<!-- Section: Latest Blog Posts / End -->
+
+      <!--Section: Video recommand -->
+			<div class="section-content">
+				<div class="container">
+					<div class="section-heading section-heading--divider-top">
+						<h2 class="section-heading__title" data-aos="fade" data-aos-duration="600"> 高 分 影 视  </h2>
+						<div class="section-heading__subtitle" data-aos="fade-up" data-aos-duration="600">
+							<a href="#">总有一部你喜欢</a>
+						</div>
+					</div>
+
+					<div class="row">
+				<div class="col-md-10 ml-md-auto mr-md-auto" data-aos="fade-up" data-aos-duration="800">
+
+					<!-- Rooms - List -->
+					<div class="rooms rooms--modern">
+
+						<!-- Room #1 -->
+						<div class="room">
+							<div class="room__body">
+								<!-- Header -->
+								<header class="room__header">
+									<!-- Title -->
+									<h2 class="room__title"><a href="room-single.html">蛛 丝 马 迹</a></h2>
+									<!-- Title / End -->
+									<!-- Meta -->
+									<div class="room__meta">
+										<div class="room__meta-item">
+											<i class="ion-person-stalker"></i> 7.7
+										</div>
+										<div class="room__meta-item">
+											<i class="icon-clock"></i> 127 分钟
+										</div>
+										<div class="room__meta-item">
+											<i class="ion-location"></i> 美国电影
+										</div>
+									</div>
+									<!-- Meta / End -->
+								</header>
+								<!-- Header / End -->
+								<!-- Excerpt -->
+								<div class="room__excerpt">
+									<p>《蛛丝马迹》是由约翰·李·汉考克执导，丹泽尔·华盛顿、拉米·马雷克、杰瑞德·莱托主演的犯罪题材电影，讲述了对“小细节”有着敏锐洞察力的警察狄克与洛杉矶警局一名出色的侦探巴克斯特共同合作，打算抓捕连环杀手亚伯特·史帕玛的故事。</p>
+								</div>
+								<!-- Excerpt / End -->
+								<!-- Read More -->
+								<footer class="room__footer">
+									<a href="page-video.html" class="btn btn-link btn-link--clean btn-link--dash">点 击 观 看</a>
+								</footer>
+								<!-- Read More / End -->
+							</div>
+							<!-- Image -->
+							<figure class="room__img">
+								<a href="https://www.youtube.com/watch?v=1HZAnkxdYuA"><img src="assets/img/samples/room-list-11.jpg" alt=""></a>
+							</figure>
+							<!-- Image / End -->
+						</div>
+						<!-- Room #1 / End -->
+
+						<!-- Room #2 -->
+						<div class="room">
+							<div class="room__body">
+								<!-- Header -->
+								<header class="room__header">
+									<!-- Title -->
+									<h2 class="room__title"><a href="room-single.html">教 场 2</a></h2>
+									<!-- Title / End -->
+									<!-- Meta -->
+									<div class="room__meta">
+										<div class="room__meta-item">
+											<i class="ion-person-stalker"></i> 8.2
+										</div>
+										<div class="room__meta-item">
+											<i class="icon-clock"></i> 2 集
+										</div>
+										<div class="room__meta-item">
+											<i class="ion-location"></i> 日本电视剧
+										</div>
+									</div>
+									<!-- Meta / End -->
+								</header>
+								<!-- Header / End -->
+								<!-- Excerpt -->
+								<div class="room__excerpt">
+									<p>《教场2》是富士电视台制作的SP剧，由中江功执导，君冢良一编剧，木村拓哉主演，该剧根据长冈弘树的悬疑小说改编，以神奈川县警察学校为舞台，讲述了冷静而透彻的教官风间公亲与学生们的故事。</p>
+								</div>
+								<!-- Excerpt / End -->
+								<!-- Read More -->
+								<footer class="room__footer">
+									<a href="room-single.html" class="btn btn-link btn-link--clean btn-link--dash">点 击 观 看</a>
+								</footer>
+								<!-- Read More / End -->
+							</div>
+							<!-- Image -->
+							<figure class="room__img">
+								<a href="https://www.youtube.com/watch?v=6a8h8uco78Y"><img src="assets/img/samples/room-list-22.jpg" alt=""></a>
+							</figure>
+							<!-- Image / End -->
+						</div>
+						<!-- Room #2 / End -->
+						<div class="text-center" data-aos="fade-up" data-aos-duration="600" data-aos-delay="400">
+							<a href="#" class="btn btn-primary btn-lg">查 看 更 多</a>
+						</div>
+
+					</div>
+				  </div>
+				</div>
+			</div>
+		</div>
+			<!--Section: Video recommand / End-->
+
+			<!-- Section: Testimonials -->
+			<div class="section-content">
+				<div class="container">
+					<div class="section-heading section-heading--divider-top">
+						<h2 class="section-heading__title" data-aos="fade" data-aos-duration="600">本周作者推荐</h2>
+					</div>
+
+					<!-- Testimonials -->
+					<div class="testimonials js-testimonials-slick slick--arrows-modern" data-aos="fade-up" data-aos-duration="800">
+
+						<div class="testimonial">
+							<blockquote class="testimonial__txt">
+							安东尼·伯克莱·考克斯（英語：Anthony Berkeley Cox；1893年7月5日－1971年3月9日），英国小说家，曾以安东尼·伯克莱、法兰西斯·艾尔斯等笔名发表过多部推理小说和心理悬疑小说，为推理小说开创了新的领域，其中的《毒巧克力命案》以多重解答闻名。
+							</blockquote>
+							<div class="testimonial__meta">
+								<figure class="testimonial__author-img">
+									<img src="assets/img/samples/comment-avatar-11.png" alt="">
+								</figure>
+								<h6 class="testimonial__author-name">安东尼·伯克莱</h6>
+							</div>
+						</div>
+
+						<div class="testimonial">
+							<blockquote class="testimonial__txt">
+								凑佳苗是日本著名推理小说家，2005年获第2届日本新人剧本奖，2007年以短篇推理作《圣职者》拿下了第35届原创广播剧大奖和第29届小说推理新人奖。之后，她将这部推理处女作扩充成长篇推理小说《告白》，《告白》于2010年被拍成电影搬上银幕。
+							</blockquote>
+							<div class="testimonial__meta">
+								<figure class="testimonial__author-img">
+									<img src="assets/img/samples/comment-avatar-22.png" alt="">
+								</figure>
+								<h6 class="testimonial__author-name">湊佳苗</h6>
+							</div>
+						</div>
+
+						<div class="testimonial">
+							<blockquote class="testimonial__txt">
+								弗雷德里克·麦卡锡·福赛思，CBE（Frederick Forsyth，1938年8月25日－），英国作家，前英国皇家空军少尉飞行员和每日快报记者。他创作了一系列著名的军事、惊悚小说，包括《豺狼的日子》、《敖德薩檔案》、《第四祕密議定書》、《戰爭猛犬》等。
+							</blockquote>
+							<div class="testimonial__meta">
+								<figure class="testimonial__author-img">
+									<img src="assets/img/samples/comment-avatar-33.png" alt="">
+								</figure>
+								<h6 class="testimonial__author-name">弗·福赛斯</h6>
+							</div>
+						</div>
+
+						<div class="testimonial">
+							<blockquote class="testimonial__txt">
+								青稞（1994年－），本名洪颖，中国推理小说作家，擅长应用建筑诡计的密室推理。他于2014年开始写推理小说，并靠《推理作家的逆袭》获得了第三届华文推理大奖赛 二等奖，此后又靠《巴别塔之梦》入围了第五届金车岛田庄司推理小说奖的决选名单，由此声名鹊起。
+							</blockquote>
+							<div class="testimonial__meta">
+								<figure class="testimonial__author-img">
+									<img src="assets/img/samples/comment-avatar-44.png" alt="">
+								</figure>
+								<h6 class="testimonial__author-name">青稞</h6>
+							</div>
+						</div>
+
+					</div>
+					<!-- Testimonials / End -->
+				</div>
+			</div>
+			<!-- Section: Testimonials / End -->
+
+			<!-- Section: CTA -->
+			<div class="section-content section-content--tertiary">
+				<div class="container">
+					<div class="section-heading section-heading--mb-sm section-heading--divider-top">
+						<h2 class="section-heading__title" data-aos="fade-up" data-aos-duration="600" data-aos-delay="200">成为会员<br>享有更多精品服务与优惠</h2>
+						<div class="section-heading__subtitle section-heading__subtitle--default" data-aos="fade-up" data-aos-duration="600" data-aos-delay="300">
+							加入我们、撰写属于你的真相
+						</div>
+					</div>
+
+					<div class="text-center" data-aos="fade-up" data-aos-duration="600" data-aos-delay="400">
+						<a href="#" class="btn btn-primary btn-lg">会 员 注 册</a>
+					</div>
+				</div>
+			</div>
+			<!-- Section: CTA / End -->
+
+		<!-- Section: Get in Touch -->
+		<div class="section-content  section-content--secondary">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-md-6"  data-aos="fade" data-aos-duration="600" style="float:none;margin:auto;padding-left:100px">
+						<!-- request image -->
+						<img src="assets/img/samples/getintouch.png" alt=""></a>
+						<!-- request image / End -->
+					</div>
+					<div class="col-md-6">
+						<div class="section-content__inner">
+							<div class="section-heading section-heading--divider-top section-heading--left">
+								<h2 class="section-heading__title" data-aos="fade" data-aos-duration="600">意 见 反 馈</h2>
+							</div>
+							<!-- Contact Form -->
+							<form action="#" id="contact-form">
+								<div class="form-group form-group--lg">
+									<input type="text" class="form-control" id="contact-name" placeholder="您的昵称...">
+								</div>
+								<div class="form-group form-group--lg">
+									<input type="email" class="form-control" id="contact-email" placeholder="您的邮件...">
+								</div>
+
+								<div class="form-group form-group--lg">
+									<textarea id="contact-message" class="form-control" rows="4" placeholder="您所要发表的意见..."></textarea>
+								</div>
+
+								<input type="button" class="btn btn-outline-secondary btn-lg" value="提 交">
+							</form>
+							<!-- Contact Form / End -->
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Section: Get in Touch / End -->
+
+		</main>
+
+		<!-- Footer
+		================================================== -->
+		<footer id="footer" class="footer">
+
+			<!-- Footer Widget -->
+			<div class="footer-widgets">
+				<div class="container">
+					<div class="row footer-widgets__row footer-widgets__row--is-numbered">
+						<div class="col-xs-12 col-sm-6 col-lg-3">
+							<!-- Widget: Address -->
+							<div class="widget widget--footer">
+								<div class="widget__header">
+									<h4 class="widget__title">联系我们</h4>
+								</div>
+								<div class="widget__content">
+									<address>
+										<p>
+											北京市<br>
+											朝阳区世纪东方城<br>
+											125 栋 5 单元 3003 室
+										</p>
+
+										<p>
+											邮件: <a href="#">info@breathless.com</a><br>
+											联系: +86 180 1111 1111
+										</p>
+									</address>
+								</div>
+							</div>
+							<!-- Widget: Address / End -->
+						</div>
+						<div class="col-xs-12 col-sm-6 col-lg-3">
+							<!-- Widget: Links -->
+							<div class="widget widget--footer widget_nav_menu">
+								<div class="widget__header">
+									<h4 class="widget__title">相关许可证</h4>
+								</div>
+								<div class="widget__content">
+									<ul>
+										<li><a href="#">增值电信业务经营许可证<br>京B2-2021111</a></li>
+										<li><a href="#">京IC备 11111111号-1</a></li>
+										<li><a href="#">网络文化经营许可证京网文[2021]<br>2121-111号</a></li>
+										<li><a href="#">出版物经营许可证<br>新出发京零字朝210000号</a></li>
+									</ul>
+								</div>
+							</div>
+							<!-- Widget: Links / End -->
+						</div>
+						<div class="col-xs-12 col-sm-6 col-lg-3">
+						<!--Widget:Help-->
+						<div class="widget widget--footer widget_nav_menu">
+							<div class="widget__header">
+								<h4 class="widget__title">帮助中心</h4>
+							</div>
+							<div class="widget__content">
+								<ul>
+									<li><a href="#">版权私隐</a></li>
+									<li><a href="#">广告业务</a></li>
+									<li><a href="#">工作机会</a></li>
+									<li><a href="#">网站联盟</a></li>
+									<li><a href="#">商务合作</a></li>
+								</ul>
+							</div>
+						</div>
+						</div>
+						<!--Widget:Help / End-->
+						<div class="col-xs-12 col-sm-6 col-lg-3">
+							<!-- Widget: Social Links -->
+							<div class="widget widget--footer widget-social">
+								<div class="widget__header">
+									<h4 class="widget__title">社交媒体</h4>
+								</div>
+								<div class="widget__content">
+									<ul class="social-links social-links--circle">
+										<li class="social-links__item">
+											<a class="social-links__link" href="#"><i class="fab fa-facebook-f"></i></a>
+										</li>
+										<li class="social-links__item">
+											<a class="social-links__link" href="#"><i class="fab fa-twitter"></i></a>
+										</li>
+										<li class="social-links__item">
+											<a class="social-links__link" href="#"><i class="fab fa-instagram"></i></a>
+										</li>
+										<li class="social-links__item">
+											<a class="social-links__link" href="#"><i class="fab fa-tripadvisor"></i></a>
+										</li>
+										<li class="social-links__item">
+											<a class="social-links__link" href="#"><i class="fab fa-yelp"></i></a>
+										</li>
+										<li class="social-links__item">
+											<a class="social-links__link" href="#"><i class="fab fa-youtube"></i></a>
+										</li>
+										<li class="social-links__item">
+											<a class="social-links__link" href="#"><i class="fab fa-google-plus-g"></i></a>
+										</li>
+									</ul>
+								</div>
+							</div>
+							<!-- Widget: Social Links / End -->
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- Footer Widgets / End -->
+
+			<!-- Footer Copyright -->
+			<div class="footer-copyright">
+				<div class="container">
+
+					<!-- Logo - Image Based -->
+					<div class="footer__logo footer__logo--img">
+						<a href="index.html"><img src="assets/img/footer-logo.png" srcset="assets/img/footer-logo@2x.png 2x" alt="Escapium Logo"></a>
+					</div>
+					<!-- Logo - Image Based / End -->
+
+					<div class="footer-copyright__txt">
+						版权所有 &copy; 2021 Brethless &nbsp;|&nbsp; All Rights Reserved
+					</div>
+				</div>
+			</div>
+			<!-- Footer Copyright / End -->
+		</footer>
+		<!-- Footer / End -->
+
+		<!-- Search Form -->
+		<i class="js-search-form-close search-form-close icon-close"></i>
+		<form action="#" class="search-form-overlay">
+			<div class="search-input">
+				<input type="text" name="input-search" class="input-search" placeholder="Enter your search...">
+				<button type="submit" class="submit">
+					<i class="icon-arrow-right"></i>
+				</button>
+			</div>
+		</form>
+		<!-- Search Form / End -->
+
+	</div><!-- .site-wrapper -->
+
+	<!-- Javascript Files
+	================================================== -->
+	<!-- Vendors JS -->
+	<script src="assets/vendor/jquery/jquery.min.js"></script>
+	<script src="assets/vendor/jquery/jquery-migrate.min.js"></script>
+
+	<script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+	<script defer src="assets/font-icon/font-awesome/js/all.min.js"></script>
+	<script src="//maps.googleapis.com/maps/api/js?key=YOUR_API_KEY"></script>
+	<script src="assets/vendor/gmap3/dist/gmap3.min.js"></script>
+
+	<!-- Core JS -->
+	<script src="assets/js/core.js"></script>
+
+	<!-- Template JS -->
+	<script src="assets/js/init.js"></script>
+
+</body>
+</html>

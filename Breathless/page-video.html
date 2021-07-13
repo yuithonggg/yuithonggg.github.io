@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="zxx">
+<head>
+
+	<!-- These belongs to the HTML file where you want C3 to work - put these lines into your <head> tag -->
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.4.11/d3.js"></script>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/c3/0.1.29/c3.js"></script>
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/c3/0.1.29/c3.css" rel="stylesheet" type="text/css">
+
+	<!-- Basic Page Needs
+	================================================== -->
+	<title> 极度之渊 BREATHLESS </title>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="description" content="HTML Template for Escape Room Game">
+	<meta name="author" content="Dan Fisher">
+	<meta name="keywords" content="escape, room, quest, real, game, life, puzzle, real-life">
+
+	<!-- Favicons
+	================================================== -->
+	<link rel="shortcut icon" href="assets/img/favicons/favicon.ico">
+	<link rel="apple-touch-icon" sizes="120x120" href="assets/img/favicons/favicon-120.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="assets/img/favicons/favicon-152.png">
+
+	<!-- Mobile Specific Metas
+	================================================== -->
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+
+	<!-- Google Web Fonts
+	================================================== -->
+	<link href="https://fonts.googleapis.com/css?family=Anton%7CHind:400,700%7CMontserrat:400,700" rel="stylesheet">
+
+	<!-- CSS
+	================================================== -->
+	<!-- Vendor CSS -->
+	<link href="assets/vendor/bootstrap/css/bootstrap.css" rel="stylesheet">
+	<link href="assets/vendor/animate/animate.css" rel="stylesheet">
+	<link href="assets/vendor/aos/aos.css" rel="stylesheet">
+	<link href="assets/font-icon/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
+	<link href="assets/font-icon/ionicons/css/ionicons.min.css" rel="stylesheet">
+	<link href="assets/vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
+	<link href="assets/vendor/slick/slick.css" rel="stylesheet">
+
+	<!-- Template CSS-->
+	<link href="assets/css/style.css" rel="stylesheet">
+
+	<!-- Booked CSS-->
+	<link href="assets/css/booked.css" rel="stylesheet">
+
+	<!-- Custom CSS-->
+	<link href="assets/css/custom.css" rel="stylesheet">
+
+
+
+</head>
+<body>
+
+	<div class="site-wrapper">
+
+		<div id="js-preloader-overlay" class="preloader-overlay">
+			<div id="js-preloader" class="preloader"></div>
+		</div>
+
+		<!-- Overlay -->
+		<div class="site-overlay"></div>
+		<!-- Overlay / End -->
+
+		<!-- Header
+		================================================== -->
+		<header id="header" class="header">
+
+			<!-- Logo - Image Based -->
+			<div class="header__logo header__logo--img">
+				<a href="index.html"><img src="assets/img/logo.png" srcset="assets/img/logo@2x.png 2x" alt="Escapium"></a>
+			</div>
+			<!-- Logo - Image Based / End -->
+
+			<!-- Main Navigation -->
+			<nav class="main-nav">
+				<ul class="main-nav__list">
+					<li class="active"><a href="index.html">主页</a></li>
+					<li class=""><a href="page-about.html">关于</a></li>
+					<li class=""><a href="#">论坛</a></li>
+					<li class=""><a href="#">专题</a>
+						<ul class="main-nav__sub">
+							<li class=""><a href="#">版块分类</a>
+								<ul class="main-nav__sub-2">
+									<li class=""><a href="#">书籍</a></li>
+									<li class=""><a href="#">影视</a></li>
+									<li class=""><a href="#">剧本</a></li>
+									<li class=""><a href="#">其它</a></li>
+								</ul>
+							</li>
+							<li class=""><a href="#">游戏测评</a></li>
+							<li class=""><a href="#">人物专访</a></li>
+						</ul>
+					</li>
+					<li class=""><a href="booking-form.html">活动</a>
+						<ul class="main-nav__sub">
+							<li class=""><a href="#">进行中</a></li>
+							<li class=""><a href="#">未开始</a></li>
+							<li class=""><a href="#">预约</a></li>
+						</ul>
+					</li>
+					<li class=""><a href="#">我的</a></li>
+				</ul>
+
+			</nav>
+			<!-- Main Navigation / End -->
+
+			<div class="header__spacer"></div>
+
+			<!-- Secondary Navigation -->
+			<nav class="header__nav header__nav--secondary">
+
+				<!-- CTA Button -->
+				<a href="booking-form.html" class="btn btn-outline-secondary nav-btn">
+					<span class="nav-btn__label">搜 索</span>
+					<i class="nav-btn__icon icon-calendar"></i>
+				</a>
+				<!-- CTA Button / End -->
+
+				<!-- Secondary Nav -->
+				<ul class="nav-secondary">
+
+					<!-- Search Form Toggler -->
+					<li class="nav-secondary__search">
+						<div class="search-form-control js-search-form-control">
+							<div class="search-form-toggler"></div>
+							<i class="icon-magnifier search-form-toggler__icon"></i>
+						</div>
+					</li>
+					<!-- Search Form Toggler / End -->
+
+					<!-- Account -->
+					<li class="nav-secondary__login">
+						<a href="#">
+							<i class="icon-user"></i>
+							<span class="link-label">登录</span>
+						</a>
+					</li>
+					<!-- Account / End -->
+
+				</ul>
+				<!-- Secondary Nav / End -->
+
+			</nav>
+			<!-- Secondary Navigation / End -->
+
+			<!-- Mobile Burger Menu Icon -->
+			<a id="header-mobile__toggle" class="burger-menu-icon">
+				<span class="burger-menu-icon__line"></span>
+				<span class="burger-menu-icon__line"></span>
+				<span class="burger-menu-icon__line"></span>
+			</a>
+			<!-- Mobile Burger Menu Icon / End -->
+
+		</header>
+		<!-- Header / End -->
+
+		<!-- Section - Video -->
+				<div class="section-media section--has-overlay section-media--bg1 jarallax">
+					<div class="section-media__inner">
+						<a href="https://www.youtube.com/watch?v=1HZAnkxdYuA&t=53s" class="section-media__link mp_iframe">
+							<span class="icon-media icon-media--video">
+								<i class="ion-play"></i>
+							</span>
+						</a>
+					</div>
+				</div>
+				<!-- Section - Video / End -->
+
+				<!-- Content
+				================================================== -->
+				<main class="site-content">
+
+				<div class="section-content">
+
+					<div class="container">
+
+						<!-- Single Room - Content -->
+						<div class="single-room-content">
+							<div class="row">
+								<div class="col-md-8">
+
+									<h2>蛛 丝 马 迹</h2>
+									<!-- Widget: Tags -->
+									<br>
+					<div class="widget widget--sidebar widget_tagcloud">
+
+						<div class="widget__content">
+							<div class="tagcloud">
+								<a href="#" class="btn btn-sm btn-outline-secondary">悬疑</a>
+								<a href="#" class="btn btn-sm btn-outline-secondary">剧情</a>
+								<a href="#" class="btn btn-sm btn-outline-secondary">丹泽尔 · 华盛顿</a><br>
+								<a href="#" class="btn btn-sm btn-outline-secondary">美国电影</a>
+								<a href="#" class="btn btn-sm btn-outline-secondary">外语电影</a>
+								<a href="#" class="btn btn-sm btn-outline-secondary">犯罪</a>
+								<a href="#" class="btn btn-sm btn-outline-secondary">惊悚</a>
+								<a href="#" class="btn btn-sm btn-outline-secondary">2021</a>
+							</div>
+						</div>
+					</div>
+					<!-- Widget: Tags / End -->
+
+									<p>克恩郡巡警乔狄肯，小名狄克（丹泽尔·华盛顿 饰），被派往洛杉矶进行本该是趟简单明快的证据收集任务。取而代之的是，他被卷入一场缉捕正肆虐该市的连环杀手之行动。领导缉捕的是洛杉矶郡警长吉姆贝克斯特（拉米·马雷克 饰），对狄克的警察直觉大为惊艳，因而私自寻求他的协助。</p>
+
+									<p>但在两 人追踪主要嫌疑人艾伯特史帕玛（杰瑞德·莱托 饰）时，贝克斯特浑然不觉该调查勾起了狄克对过去不愉快的回忆，随之出土的黑暗秘密除了威胁案件调查外，可能牵连更剧。</p>
+
+								</div>
+								<div class="col-md-4">
+									<!--chart-->
+										<div id="chart" style="margin:auto"></div>
+									<!--chart / End -->
+									<br><br>
+
+									<!-- Room Details -->
+									<ul class="room-details">
+										<li class="room-details__item">
+												The Little Things
+										</li>
+										<li class="room-details__item">
+											上映时间 ：2021/01/29
+										</li>
+										<li class="room-details__item">
+											编剧 :
+											<a href="#">约翰·李·汉考克</a>
+										</li>
+										<li class="room-details__item">
+											导演 :
+											<a href="#">约翰·李·汉考克</a>
+										</li>
+										<li class="room-details__item">
+											主演 ：
+											<a href="#">丹泽尔·华盛顿</a>、<a href="#">拉米·马雷克</a>、<a href="#">杰瑞德·莱托</a>、<a href="#">更多...</a>
+										</li>
+										<li class="room-details__item">
+											片长 ： 127分钟
+										</li>
+										<li class="room-details__item">
+											语言 ： 外语 英语
+										</li>
+									</ul>
+									<!-- Room Details / End -->
+									<br><br>
+									<a href="#" class="btn btn-primary btn-lg">立即评分</a>
+
+								</div>
+							</div>
+						</div>
+						<!-- Single Room - Content / End -->
+
+					</div>
+
+				</div>
+
+
+
+		<!-- Footer
+		================================================== -->
+		<footer id="footer" class="footer">
+
+			<!-- Footer Widget -->
+			<div class="footer-widgets">
+				<div class="container">
+					<div class="row footer-widgets__row footer-widgets__row--is-numbered">
+						<div class="col-xs-12 col-sm-6 col-lg-3">
+							<!-- Widget: Address -->
+							<div class="widget widget--footer">
+								<div class="widget__header">
+									<h4 class="widget__title">联系我们</h4>
+								</div>
+								<div class="widget__content">
+									<address>
+										<p>
+											北京市<br>
+											朝阳区世纪东方城<br>
+											125 栋 5 单元 3003 室
+										</p>
+
+										<p>
+											邮件: <a href="#">info@breathless.com</a><br>
+											联系: +86 180 1111 1111
+										</p>
+									</address>
+								</div>
+							</div>
+							<!-- Widget: Address / End -->
+						</div>
+						<div class="col-xs-12 col-sm-6 col-lg-3">
+							<!-- Widget: Links -->
+							<div class="widget widget--footer widget_nav_menu">
+								<div class="widget__header">
+									<h4 class="widget__title">相关许可证</h4>
+								</div>
+								<div class="widget__content">
+									<ul>
+										<li><a href="#">增值电信业务经营许可证<br>京B2-2021111</a></li>
+										<li><a href="#">京IC备 11111111号-1</a></li>
+										<li><a href="#">网络文化经营许可证京网文[2021]<br>2121-111号</a></li>
+										<li><a href="#">出版物经营许可证<br>新出发京零字朝210000号</a></li>
+									</ul>
+								</div>
+							</div>
+							<!-- Widget: Links / End -->
+						</div>
+						<div class="col-xs-12 col-sm-6 col-lg-3">
+						<!--Widget:Help-->
+						<div class="widget widget--footer widget_nav_menu">
+							<div class="widget__header">
+								<h4 class="widget__title">帮助中心</h4>
+							</div>
+							<div class="widget__content">
+								<ul>
+									<li><a href="#">版权私隐</a></li>
+									<li><a href="#">广告业务</a></li>
+									<li><a href="#">工作机会</a></li>
+									<li><a href="#">网站联盟</a></li>
+									<li><a href="#">商务合作</a></li>
+								</ul>
+							</div>
+						</div>
+						</div>
+						<!--Widget:Help / End-->
+						<div class="col-xs-12 col-sm-6 col-lg-3">
+							<!-- Widget: Social Links -->
+							<div class="widget widget--footer widget-social">
+								<div class="widget__header">
+									<h4 class="widget__title">社交媒体</h4>
+								</div>
+								<div class="widget__content">
+									<ul class="social-links social-links--circle">
+										<li class="social-links__item">
+											<a class="social-links__link" href="#"><i class="fab fa-facebook-f"></i></a>
+										</li>
+										<li class="social-links__item">
+											<a class="social-links__link" href="#"><i class="fab fa-twitter"></i></a>
+										</li>
+										<li class="social-links__item">
+											<a class="social-links__link" href="#"><i class="fab fa-instagram"></i></a>
+										</li>
+										<li class="social-links__item">
+											<a class="social-links__link" href="#"><i class="fab fa-tripadvisor"></i></a>
+										</li>
+										<li class="social-links__item">
+											<a class="social-links__link" href="#"><i class="fab fa-yelp"></i></a>
+										</li>
+										<li class="social-links__item">
+											<a class="social-links__link" href="#"><i class="fab fa-youtube"></i></a>
+										</li>
+										<li class="social-links__item">
+											<a class="social-links__link" href="#"><i class="fab fa-google-plus-g"></i></a>
+										</li>
+									</ul>
+								</div>
+							</div>
+							<!-- Widget: Social Links / End -->
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- Footer Widgets / End -->
+
+			<!-- Footer Copyright -->
+			<div class="footer-copyright">
+				<div class="container">
+
+					<!-- Logo - Image Based -->
+					<div class="footer__logo footer__logo--img">
+						<a href="index.html"><img src="assets/img/footer-logo.png" srcset="assets/img/footer-logo@2x.png 2x" alt="Escapium Logo"></a>
+					</div>
+					<!-- Logo - Image Based / End -->
+
+					<div class="footer-copyright__txt">
+						版权所有 &copy; 2021 Brethless &nbsp;|&nbsp; All Rights Reserved
+					</div>
+				</div>
+			</div>
+			<!-- Footer Copyright / End -->
+		</footer>
+		<!-- Footer / End -->
+
+		<!-- Search Form -->
+		<i class="js-search-form-close search-form-close icon-close"></i>
+		<form action="#" class="search-form-overlay">
+			<div class="search-input">
+				<input type="text" name="input-search" class="input-search" placeholder="Enter your search...">
+				<button type="submit" class="submit">
+					<i class="icon-arrow-right"></i>
+				</button>
+			</div>
+		</form>
+		<!-- Search Form / End -->
+
+	</div><!-- .site-wrapper -->
+
+	<!-- Javascript Files
+	================================================== -->
+	<!-- Vendors JS -->
+	<script src="assets/vendor/jquery/jquery.min.js"></script>
+	<script src="assets/vendor/jquery/jquery-migrate.min.js"></script>
+
+	<script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+	<script defer src="assets/font-icon/font-awesome/js/all.min.js"></script>
+	<script src="//maps.googleapis.com/maps/api/js?key=YOUR_API_KEY"></script>
+	<script src="assets/vendor/gmap3/dist/gmap3.min.js"></script>
+
+	<!-- Core JS -->
+	<script src="assets/js/core.js"></script>
+
+	<!-- Template JS -->
+	<script src="assets/js/init.js"></script>
+
+	<!--Chart JS-->
+	<script src="assets/js/charttt.js"></script>
+
+</body>
+
+</html>
